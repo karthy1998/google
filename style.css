@@ -1,0 +1,148 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+/* google search */
+.logo{
+    padding-top: 200px;
+    width: 700px;
+    height: 150px;
+    padding-left: 850px;
+}
+.search{
+    padding-left: 650px;
+    width: 700px;
+    height: 20px;
+    
+}
+#search{
+    width: 650px;
+    height: 40px;
+    border-radius: 35px;
+    display: flex;
+}
+::placeholder{
+    padding-left: 35px;
+}
+#search:hover{
+    box-shadow: 2px 5px 5px;
+}
+.searchimg{
+    height: 25px;
+    width: 50px;
+    padding: 10px;
+  
+}
+#searchimg{
+    color: dodgerblue;
+    position: absolute;
+    padding-top: 13px;
+    padding-left: 15px;
+    cursor: pointer;
+}
+#voice{
+    color: dodgerblue;
+    position: absolute;
+    padding-top: 13px;
+    padding-left: 610px;
+    cursor: pointer;
+}
+.submit{
+    padding-left: 780px;
+    padding-top: 55px;
+}
+#submit{
+    background-color: dodgerblue;
+    color: white;
+    width: 180px;
+    border-radius: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+.lucky{
+    width: 650px;
+    height: 40px;
+    border-radius: 35px;
+    padding-top: 53px;
+}
+#lucky{
+    background-color: dodgerblue;
+    color: white;
+    width: 180px;
+    border-radius: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+.buton{
+    display: flex;
+    flex-shrink: inherit;
+}
+.space{
+    width: 40px;
+}
+.info{
+    padding-top: 30px;
+    padding-left: 850px;
+}
+.lang{
+    padding-top: 30px;
+    padding-left: 760px;
+    display: flex;
+    flex-shrink: inherit;
+}
+.gap{
+    width: 10px;
+}
+.adjust3{
+    padding: 5px;
+}
+/* nav bar  */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:white;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: silver;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+  }
+  li a:hover{
+      color: black;
+  }
+  .bar{
+      height: 20px;
+  }
+  .profile{
+      height: 22px;
+  }
+  /* Footer */
+  .footer{
+     
+      padding-top: 200px;
+  }
+  .country{
+      padding-left: 100px;
+      position: relative;
+      padding-bottom: 1px;
+  }
+  .country-text{
+      padding-top: 20px;
+      color: silver;
+  }
+  .list{
+      display: flex;
+     
+  }
+  .space-one{
+      padding-left: 1270px;
+  }
