@@ -21,9 +21,7 @@ body{
     border-radius: 35px;
     display: flex;
 }
-::placeholder{
-    padding-left: 35px;
-}
+
 #search:hover{
     box-shadow: 2px 5px 5px;
 }
@@ -38,7 +36,9 @@ body{
     position: absolute;
     padding-top: 13px;
     padding-left: 15px;
-    cursor: pointer;
+    }
+.spa{
+    width:600px;
 }
 #voice{
     color: dodgerblue;
